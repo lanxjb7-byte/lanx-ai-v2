@@ -1,0 +1,23 @@
+
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.lanxx.ai'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.lanxx.ai'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '2.0'
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.google.code.gson:gson:2.11.0'
+}
